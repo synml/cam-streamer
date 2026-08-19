@@ -1,0 +1,19 @@
+[project]
+name = "cam-streamer"
+version = "0.1.0"
+description = "연결된 웹캠의 영상을 HTTP를 통해 스트리밍하는 Flask 애플리케이션"
+readme = "README.md"
+authors = [
+    { name = "Seokyong Shin", email = "kistssy@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "flask",
+    "opencv-python",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller",
+    "ruff",
+]
